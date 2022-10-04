@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans',Arial,sans-serif;
+
+  font-size: 1rem;
+
+  --orange: #ff7200;
+  --green: #00b67a;
+  --blue: #0389fb;
+  --grey: #e1e5ea5c;
+  --dark-grey: #9ca2aa;
+  --hero-color: #a9b2be;
+
+  --content-page-max: calc(2.3rem + 2vw);
+  --content-page-h0: calc(2rem + 1.8vw);
+  --content-page-h1: calc(1.375rem + 1.5vw);
+  --content-page-h2: calc(1.325rem + 0.9vw);
+  --content-page-h3: calc(1.3rem + 0.6vw);
+  --content-page-h4: calc(1.275rem + 0.3vw);
+  --content-page-h5: 1.25rem;
+  --content-page-h6: 0.7rem;
+  
+  --content-page-fs-4: calc(1rem + 0.3vw);
+  --content-page-fs-5: calc(1.4rem + 0.5vw);
+  --content-page-fs-6-5: calc(1.7rem + 1.7vw);
+  --content-page-fs-6-4: calc(1.4rem + 1.7vw);
+  --content-page-fs-6-3: calc(1.4rem + 1.4vw);
+  --content-page-fs-6-2: calc(1.4rem + 1.2vw);
+
+  --content-page-ln-4: 1.55;
+  --content-page-ln-5: 1.35;
+  --content-page-ln-6: 1.25;
+
+  --shadow: 0px 0px 20px rgb(0 0 0 / 40%);
+  --button-shadow: 5px -3px 8px rgba(0, 0, 0, 0.2);
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#__next > * {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto !important;
+}
+
+button {
+  font-family: "Segoe UI Regular" !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: var(--content-page-h3);
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
