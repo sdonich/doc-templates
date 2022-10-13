@@ -84,9 +84,19 @@ Order - 14
                     }
 
                     /* image */
+                    .article .image-container {
+                        overflow-x: auto;
+                    }
+
                     .article .image-container img {
                         width: 100%;
                         height: auto;
+                    }
+
+                    @media (max-width: 576px) {
+                        .article .image-container .scrollable-image {
+                            width: 576px;
+                        }
                     }
 
                     /* link */
@@ -198,7 +208,12 @@ Order - 14
                         ситуации.<br> Для наглядности мы обобщили информацию в таблицу:
                         <br>
                         <br>
-                        ТАБЛИЦА
+                        <div class="image-container">
+                            <a href="https://it-smeta.s3.amazonaws.com/tablica-izmenenie-ceny-kontrakta.jpg"
+                                target="_blank">
+                                <img class="scrollable-image" src="https://it-smeta.s3.amazonaws.com/tablica-izmenenie-ceny-kontrakta.jpg" />
+                            </a>
+                        </div>
                         <br>
                         <br>
                         Это общая схема для понимания всей картины. Чтобы подробнее узнать, как выполняется пересчет на
