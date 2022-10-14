@@ -93,3 +93,8 @@
 .article .nowrap {
     white-space: nowrap;
 }
+
+/* list */
+.article .list {
+    padding-left: 40px; padding-right: 40px;
+}
