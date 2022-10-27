@@ -13,7 +13,11 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+/* новый */
+.article .container-ls {
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
 /* text */
 .article .title-s {
     font-size: var(--content-page-fs-6-3);
