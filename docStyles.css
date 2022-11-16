@@ -13,10 +13,14 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-/* новый */
+/* container new */
 .article .container-ls {
     padding-top: 40px;
     padding-bottom: 45px;
+}
+.article .container-date {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /* text */
 .article .title-s {
@@ -46,6 +50,13 @@
 .article .text {
     font-size: var(--content-page-fs-4);
     line-height: var(--content-page-ln-4);
+}
+/* text new */
+.article .title-date {
+    font-size: var(--content-page-fs-3);
+    line-height: var(--content-page-ln-6);
+    font-style: italic;
+    opacity: 0.4;
 }
 
 /* video */
