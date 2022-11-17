@@ -22,7 +22,7 @@ body {
   --content-page-h5: 1.25rem;
   --content-page-h6: 0.7rem;
   
-  --content-page-fs-3: calc(0,5rem + 0.3vw);
+  --content-page-fs-3: calc(0.5rem + 0.3vw);
   --content-page-fs-4: calc(1rem + 0.3vw);
   --content-page-fs-5: calc(1.4rem + 0.5vw);
   --content-page-fs-6-5: calc(1.7rem + 1.7vw);
