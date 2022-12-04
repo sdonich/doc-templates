@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'PT Sans',Arial,sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
 
   font-size: 1rem;
 
@@ -21,20 +21,28 @@ body {
   --content-page-h4: calc(1.275rem + 0.3vw);
   --content-page-h5: 1.25rem;
   --content-page-h6: 0.7rem;
-  
+
+  --content-page-fs-1: .9rem;
   --content-page-fs-3: calc(0.5rem + 0.3vw);
+  --content-page-fs-4-2: calc(.9rem + 0.1vw);
+  --content-page-fs-4-1: calc(1rem + 0.1vw);
   --content-page-fs-4: calc(1rem + 0.3vw);
   --content-page-fs-5: calc(1.4rem + 0.5vw);
   --content-page-fs-6-5: calc(1.7rem + 1.7vw);
   --content-page-fs-6-4: calc(1.4rem + 1.7vw);
   --content-page-fs-6-3: calc(1.4rem + 1.4vw);
   --content-page-fs-6-2: calc(1.4rem + 1.2vw);
+  --content-page-fs-7: calc(1.9rem + 1.9vw);
+  --content-page-fs-8: calc(2rem + 3vw);
 
   --content-page-ln-4: 1.55;
   --content-page-ln-5: 1.35;
   --content-page-ln-6: 1.25;
 
   --shadow: 0px 0px 20px rgb(0 0 0 / 40%);
+  --new-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
+  --new-shadow-hover: 0px 0px 20px rgb(0 0 0 / 15%);
+  --new-shadow-active: 0px 0px 2px rgb(0 0 0 / 15%);
   --button-shadow: 5px -3px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -44,7 +52,7 @@ body {
   height: 100vh;
 }
 
-#__next > * {
+#__next>* {
   flex: 1 0 auto;
 }
 
