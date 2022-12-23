@@ -88,6 +88,11 @@
     line-height: var(--content-page-ln-4);
     color: var(--orange);
     word-break: break-word;
+    border-bottom: 2px solid transparent;
+}
+
+.article .link:hover {
+    border-bottom: 2px solid var(--orange);
 }
 
 /* link button */
